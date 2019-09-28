@@ -6,7 +6,7 @@ fof-socialprofile:
     edit:
       edit: 编辑
       add: 添加
-      headtitle: 添加按钮
+      headtitle: 添加/编辑按钮
       title: 标题
       url: 链接
       submit: 保存
