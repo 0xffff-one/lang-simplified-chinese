@@ -9,19 +9,19 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "如果你是开发者，你可以<a>阅读文档</a>并自行开发插件。"
-      install_text: "在此期间你可以造访 <a>Flarum 社区</a>搜索插件，并通过 Composer 手动安装。"
-      temporary_text: "终有一天，在不远的将来，此对话框将让你轻松地添加插件。如我们所说，我们将创建一套生态系统！"
+      developer_text: "如果你是开发者，你可以<a>阅读文档</a>开发新的插件。"
+      install_text: "同时，你可以在 <a>Flarum 社区</a>寻找插件，通过 Composer 手动安装。"
+      temporary_text: "这里能快截添加插件扩展。如我们所说，我们正在创建一个生态系统！"
       title: 添加插件
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: 彩色页眉
+      colored_header_label: 彩色导航
       colors_heading: 颜色
-      colors_text: "选择两种颜色作为论坛主色调。第一种作为突出显示颜色，第二种作为背景元素样式。"
+      colors_text: "选择两种颜色作为主题色。第一种作为突出显示颜色，第二种作为背景元素色调。"
       custom_footer_heading: 自定义页脚
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: 自定义页眉
+      custom_header_heading: 自定义头部
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: 自定义样式
       custom_styles_text: 添加 LESS/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum 默认样式。
@@ -29,27 +29,27 @@ core:
       edit_css_button: 编辑自定义 CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
-      enter_hex_message: 请输入十六进制颜色代码。
-      favicon_heading: 站点图标 (Favicon)
-      favicon_text: 上传图片做为论坛的站点图标。
+      enter_hex_message: 请输入一个十六进制颜色代码。
+      favicon_heading: 收藏夹图标 (Favicon)
+      favicon_text: 上传图片作为收藏夹图标。
       logo_heading: Logo
-      logo_text: 上传图片代替论坛名称显示。
+      logo_text: 上传 LOGO，显示在站点标题处
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: 默认语言
-      forum_description_heading: 论坛介绍
-      forum_description_text: 输入一两句话简单描述论坛。这将会显示为 Meta 标签，并出现在搜索引擎结果中。
-      forum_title_heading: 论坛名称
-      home_page_heading: 论坛首页
-      home_page_text: "选择一个页面作为论坛首页。"
+      forum_description_heading: 站点描述
+      forum_description_text: 输入一两句话简单描述你的站点。这将会作为 Meta 标记，被搜索引擎索引。
+      forum_title_heading: 站点名称
+      home_page_heading: 站点首页
+      home_page_text: "选择一个页面作为站点首页。如果输入了自定义值，请使用基于站点根目录的相对路径。"
       saved_message: 更改已保存
-      show_language_selector_label: 显示选择语言菜单
+      show_language_selector_label: 显示语言选择菜单
       submit_button: => core.ref.save_changes
       welcome_banner_heading: 欢迎横幅
-      welcome_banner_text: 横幅文本将显示于“全部主题”页面顶部，用于欢迎新到访的游客。
+      welcome_banner_text: 输入一段文字作为横幅，它将显示在站点的“所有话题”页面中。
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -58,7 +58,7 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "通过增加 LESS/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。"
+      customize_text: "增加 LESS/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。"
       submit_button: => core.ref.save_changes
       title: 编辑自定义 CSS
 
@@ -70,7 +70,7 @@ core:
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: => core.ref.color
+      color_label: 颜色
       delete_button: 删除用户组
       delete_confirmation: "是否删除此用户组？组内用户<strong>不会</strong>被删除。"
       icon_label: => core.ref.icon
@@ -116,7 +116,7 @@ core:
     extensions:
       add_button: 添加插件
       settings_button: => core.ref.settings
-      uninstall_button: 移除
+      uninstall_button: 卸载
 
     # This string is used in the session dropdown menu.
     header:
@@ -129,17 +129,17 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: 外观
-      appearance_text: "自定义论坛色调、图标以及其他元素"
+      appearance_text: "自定义站点色调、图标以及其他元素"
       basics_button: 常规
-      basics_text: "设置论坛名称、语言以及其他常规设置"
+      basics_text: "设置站点名称、语言以及其他常规设置"
       dashboard_button: 概览
-      dashboard_text: 论坛数据综览
+      dashboard_text: 站点数据综览
       email_button: => core.ref.email
-      email_text: "配置论坛邮箱设置"
+      email_text: "配置站点邮箱设置"
       extensions_button: 插件
-      extensions_text: 为你的论坛添加额外功能
+      extensions_text: 为你的站点添加额外功能
       permissions_button: 权限
-      permissions_text: 设置用户访问及操作权限
+      permissions_text: 设置用户组访问及操作权限
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -167,9 +167,9 @@ core:
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: 无限制
+      allow_indefinitely_button: 无限期
       allow_some_minutes_button: "{count} 分钟|{count} 分钟"
-      allow_ten_minutes_button: 10 分钟内
+      allow_ten_minutes_button: 发布后 10 分钟内
       allow_until_reply_button: 直到被回复
       everyone_button: 所有人
       members_button: => core.group.members
@@ -199,8 +199,8 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: 发送重设密码邮件
-      text: 点击按钮并查看邮件中的链接以重设密码。
+      send_button: 发送密码重置邮件
+      text: 点击按钮并查看邮件中的链接以密码重置。
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -213,11 +213,11 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: 撰写内容...
+      body_placeholder: 写点什么...
       discard_confirmation: "主题尚未发布，是否丢弃？"
-      submit_button: 发布
+      submit_button: 发布话题
       title: => core.ref.start_a_discussion
-      title_placeholder: 标题
+      title_placeholder: 话题标题
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -240,14 +240,14 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "是否删除此主题？"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: 登录以回复
+      log_in_to_reply_button: 登入以回复
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: "道生一，一生二，二生三，三生万物"
+      empty_text: "空空如也，何不创作一个？"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 标记为已读
       replied_text: "{username} 回复于 {ago}"
@@ -255,7 +255,7 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: 激活账号
+      activate_button: 激活帐户
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: 用户组
@@ -271,10 +271,10 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: 我们向你发送了一封包含重设密码链接的邮件，若未收到请检查垃圾箱。
+      email_sent_message: 我们向你发送了一封包含密码重置链接的邮件，若未收到请检查垃圾箱。
       not_found_message: 没有使用此邮箱地址注册的用户。
-      submit_button: 重设密码
-      text: 请输入邮箱地址，我们将发送重设密码链接至该邮箱。
+      submit_button: 重置密码
+      text: 输入邮箱地址，我们将发送密码重置链接至该邮箱。
       title: 忘记密码
 
     # These translations are used in the header and session dropdown menu.
@@ -308,7 +308,7 @@ core:
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "忘记密码？"
-      invalid_login_message: 登录信息有误
+      invalid_login_message: 登入信息有误
       password_placeholder: => core.ref.password
       remember_me_label: 记住我
       sign_up_text: "还没有帐户？ <a>立即注册</a>"
@@ -380,7 +380,7 @@ core:
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "已有帐户？ <a>登录</a>"
+      log_in_text: "已有帐户？ <a>登入</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
@@ -427,7 +427,7 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "糟糕，出错啦！请刷新页面重试。"
+      generic_message: "出错啦！刷新页面重试。"
       not_found_message: 请求的资源不存在。
       permission_denied_message: 没有权限进行此操作。
       rate_limit_exceeded_message: 操作太频繁，请稍后再试。
@@ -489,7 +489,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "用户名只能包含字母、数字及横线 (-)"
+    invalid_username_message: "用户名只能包含字母、数字及中划线 (-)"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -526,7 +526,7 @@ core:
       body: |
         你好，{username}！
 
-        你在 {forum} 请求重设密码，若确定是你本人进行的更改，请点击下面的链接重设密码：
+        你在 {forum} 请求密码重置，若确定是你本人进行的更改，请点击下面的链接密码重置：
 
         {url}
 
@@ -544,7 +544,7 @@ core:
     change_password: 更改密码
     color: 颜色
     confirm_password: 确认密码
-    confirmation_email_sent: "验证邮件已发送至 {email}，若未收到请检查垃圾箱。"
+    confirmation_email_sent: "验证邮件已发送至 {email}，若未收到，请检查垃圾箱。"
     custom_footer_text: 添加显示于页面底部的 HTML。
     custom_footer_title: 编辑自定义页脚
     custom_header_text: "添加显示于页面顶部，位于 Flarum 默认页眉上方的 HTML。"
@@ -557,7 +557,7 @@ core:
     icon_label: 图标
     icon_text: "输入任意 <a>Font Awesome</a> 图标名称，<strong>包括</strong>前缀 <code>fas fa-</code>"
     load_more: 加载更多
-    log_in: 登录
+    log_in: 登入
     log_out: 注销
     mark_all_as_read: 标记所有主题为已读
     next_page: 下一页
@@ -569,7 +569,7 @@ core:
     previous_page: 上一页
     rename: 重命名
     reply: 回复                                 # Referenced by flarum-mentions.yml
-    reset_your_password: 重设密码
+    reset_your_password: 密码重置
     restore: 还原
     save_changes: 保存                   # Referenced by flarum-tags.yml
     settings: 设置
